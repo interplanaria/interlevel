@@ -1,0 +1,12 @@
+{
+  "name": "interlevel",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "level": "^4.0.0",
+    "zeromq": "^5.1.0"
+  }
+}
