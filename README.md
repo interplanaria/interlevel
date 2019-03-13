@@ -1,6 +1,6 @@
 # interlevel
 
-A remote LevelDB server, powered by ZeroMQ
+LevelDB over ZeroMQ
 
 # Install
 
@@ -46,3 +46,11 @@ db.put('name', 'Level', function (err) {
   })
 })
 ```
+
+# Demo
+
+See the [demo](demo) folder for a complete `client/server` example.
+
+# Note
+
+Currently only supports `put` and `get`. Feel free to send a PR if you want to contribute
